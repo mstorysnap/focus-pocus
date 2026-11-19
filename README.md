@@ -5,10 +5,9 @@ Read hard things, one block at a time.
 Focus Pocus breaks long, dense texts into bite-sized blocks. You still do the reading; when a passage gets hard, **Explain** opens a plain-English explanation of the block and **Summarize** gives the gist of the whole text, right inside the reader.
 
 - Library of seven short excerpts about AI and datasets (Prince, Vaswani et al., GPT-3, Villalobos et al., Shumailov et al., Kang et al.) and the opening of *Alice's Adventures in Wonderland*.
-- Focus mode (one block at a time) and full-text mode, with progress saved in the browser.
+- Focus mode (one block at a time) and full-text mode, with progress saved in the browser and a Reset progress button in the library.
 - Keyboard: `J`/`K` or arrows to move, `E` explain, `S` summarize, `Esc` back to the library.
-- Explanations and summaries are written ahead of time, so the page works anywhere with no setup.
-- Optional live questions: paste your own Claude API key under "Live Claude" at the bottom of the library. The key is stored only in your browser.
+- Explanations and summaries are written ahead of time, so the page works anywhere with no setup and no API key.
 
 ## Publish on GitHub Pages
 

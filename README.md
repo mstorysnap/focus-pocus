@@ -2,11 +2,14 @@
 
 Read hard things, one block at a time.
 
-Focus Pocus breaks long, dense texts into bite-sized blocks. You still do the reading; when a passage gets hard, **Explain** opens a plain-English explanation of the block and **Summarize** gives the gist of the whole text, right inside the reader.
+Focus Pocus breaks long, dense texts into bite-sized blocks. You still do the reading; when a passage gets hard, **Explain** opens a short, readable paragraph on what the block means and **Summarize** condenses it. On the last block, Summarize also condenses the whole text.
 
 - Library of seven short excerpts about AI and datasets (Prince, Vaswani et al., GPT-3, Villalobos et al., Shumailov et al., Kang et al.) and the opening of *Alice's Adventures in Wonderland*.
-- Focus mode (one block at a time) and full-text mode, with progress saved in the browser and a Reset progress button in the library.
-- Keyboard: `J`/`K` or arrows to move, `E` explain, `S` summarize, `Esc` back to the library.
+- Focus mode (one block at a time) and Full text mode (the whole text, current block lit). Progress is saved in the browser, with a Reset progress button in the library. The top bar stays in view as you scroll.
+- Block size: `−` and `+` make blocks about 25% shorter or longer per press. `−` splits long blocks at sentence ends, `+` joins short ones. The percentage between the buttons goes back to the original blocks. A resized block shows the explanations and summaries of the blocks it comes from.
+- Highlighter (`H` or the marker button): the block starts unpainted and paints forward as the pointer moves over it, with no click. Right-click switches the pointer between paint, pause (to reach Explain without painting) and eraser. `Space` paints the next phrase and `Backspace` erases one; the clear button wipes the block. The reader always opens with the highlighter off.
+- Highlight strength: the strip of five yellows in the bottom bar goes from watery to full highlighter, and the choice is remembered.
+- Keyboard: `J`/`K` or arrows to move, `E` explain, `S` summarize, `−`/`+` block size, `F` full text, `H` highlighter, `Esc` back to the library.
 - Explanations and summaries are written ahead of time, so the page works anywhere with no setup and no API key.
 
 ## Publish on GitHub Pages
